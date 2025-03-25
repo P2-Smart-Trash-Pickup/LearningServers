@@ -12,13 +12,14 @@ body {
 
 /* Styling Bow */
 .bow-container {
-    position: fixed;
-    top: 20px;
-    right: 20px;
-    z-index: 100;
+    position: absolute;
+    top: 7.4vh;
+    right: 18vw;
+    z-index: 80;
 }
-.bow-image {
-    width: 120px;
+
+.bow {
+    width: 200px;
     height: auto;
     animation: float 3s ease-in-out infinite;
 }

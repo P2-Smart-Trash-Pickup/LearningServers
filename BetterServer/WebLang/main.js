@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function() {
     const speakButton = document.getElementById('speakButton');
-    const text = document.querySelector('.Hexagon p').textContent;
-    const title = document.querySelector('.Hexagon h1').textContent;
+    const text = document.querySelector('.content p').textContent;
+    const title = document.querySelector('.content h1').textContent;
     
     // Speech synthesis setup
     const synth = window.speechSynthesis;
